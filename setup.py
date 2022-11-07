@@ -9,7 +9,7 @@ exec(open('yolov7/version.py').read())
 setup(
     name="yolov7",
     version=__version__,
-    packages=find_packages(),
+    packages=["yolov7.*"],#find_packages(),
     url='https://github.com/RShevcheCape/yolov7',
     author="Rostyslav Shevchenko",
     description="Implementation of paper - YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
