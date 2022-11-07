@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 # requirements.txt and THEY MUST BE pinned versions
 
 
-exec(open('version.py').read())
+exec(open('yolov7/version.py').read())
 setup(
     name="yolov7",
     version=__version__,
